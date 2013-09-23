@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F175084C17EA933500DDF37B /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F175084B17EA933500DDF37B /* Storyboard.storyboard */; };
+		F175085417EA940400DDF37B /* FixedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F175085217EA940400DDF37B /* FixedViewController.m */; };
+		F175085517EA940400DDF37B /* FixedViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F175085317EA940400DDF37B /* FixedViewController.xib */; };
 		F1AAB63917CAF26A0008A358 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AAB63817CAF26A0008A358 /* UIKit.framework */; };
 		F1AAB63B17CAF26A0008A358 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AAB63A17CAF26A0008A358 /* Foundation.framework */; };
 		F1AAB63D17CAF26A0008A358 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AAB63C17CAF26A0008A358 /* CoreGraphics.framework */; };
@@ -23,6 +26,11 @@
 		F1AAB65F17CAF26B0008A358 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AAB63A17CAF26A0008A358 /* Foundation.framework */; };
 		F1AAB66717CAF26B0008A358 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F1AAB66517CAF26B0008A358 /* InfoPlist.strings */; };
 		F1AAB66A17CAF26B0008A358 /* Mongoose_RandomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AAB66917CAF26B0008A358 /* Mongoose_RandomTests.m */; };
+		F1AAB67417CB015D0008A358 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AAB67317CB015D0008A358 /* AudioToolbox.framework */; };
+		F1AAB67617CB01BA0008A358 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1AAB67517CB01BA0008A358 /* QuartzCore.framework */; };
+		F1AAB67A17CB03EB0008A358 /* beep-7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1AAB67717CB03EB0008A358 /* beep-7.mp3 */; };
+		F1AAB67B17CB03EB0008A358 /* end beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1AAB67817CB03EB0008A358 /* end beep.mp3 */; };
+		F1AAB67C17CB03EB0008A358 /* tick - 1s.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F1AAB67917CB03EB0008A358 /* tick - 1s.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F175084B17EA933500DDF37B /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		F175085117EA940400DDF37B /* FixedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FixedViewController.h; sourceTree = "<group>"; };
+		F175085217EA940400DDF37B /* FixedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FixedViewController.m; sourceTree = "<group>"; };
+		F175085317EA940400DDF37B /* FixedViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FixedViewController.xib; sourceTree = "<group>"; };
 		F1AAB63517CAF26A0008A358 /* Mongoose Random.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mongoose Random.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1AAB63817CAF26A0008A358 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		F1AAB63A17CAF26A0008A358 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -58,6 +70,11 @@
 		F1AAB66617CAF26B0008A358 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F1AAB66817CAF26B0008A358 /* Mongoose_RandomTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Mongoose_RandomTests.h; sourceTree = "<group>"; };
 		F1AAB66917CAF26B0008A358 /* Mongoose_RandomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Mongoose_RandomTests.m; sourceTree = "<group>"; };
+		F1AAB67317CB015D0008A358 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F1AAB67517CB01BA0008A358 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		F1AAB67717CB03EB0008A358 /* beep-7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "beep-7.mp3"; sourceTree = "<group>"; };
+		F1AAB67817CB03EB0008A358 /* end beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "end beep.mp3"; sourceTree = "<group>"; };
+		F1AAB67917CB03EB0008A358 /* tick - 1s.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "tick - 1s.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +82,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1AAB67617CB01BA0008A358 /* QuartzCore.framework in Frameworks */,
+				F1AAB67417CB015D0008A358 /* AudioToolbox.framework in Frameworks */,
 				F1AAB63917CAF26A0008A358 /* UIKit.framework in Frameworks */,
 				F1AAB63B17CAF26A0008A358 /* Foundation.framework in Frameworks */,
 				F1AAB63D17CAF26A0008A358 /* CoreGraphics.framework in Frameworks */,
@@ -90,6 +109,7 @@
 				F1AAB63E17CAF26A0008A358 /* Mongoose Random */,
 				F1AAB66217CAF26B0008A358 /* Mongoose RandomTests */,
 				F1AAB63717CAF26A0008A358 /* Frameworks */,
+				F1AAB67D17CB03F40008A358 /* Resources */,
 				F1AAB63617CAF26A0008A358 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,6 +126,8 @@
 		F1AAB63717CAF26A0008A358 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1AAB67517CB01BA0008A358 /* QuartzCore.framework */,
+				F1AAB67317CB015D0008A358 /* AudioToolbox.framework */,
 				F1AAB63817CAF26A0008A358 /* UIKit.framework */,
 				F1AAB63A17CAF26A0008A358 /* Foundation.framework */,
 				F1AAB63C17CAF26A0008A358 /* CoreGraphics.framework */,
@@ -117,11 +139,15 @@
 		F1AAB63E17CAF26A0008A358 /* Mongoose Random */ = {
 			isa = PBXGroup;
 			children = (
+				F175084B17EA933500DDF37B /* Storyboard.storyboard */,
 				F1AAB64717CAF26A0008A358 /* AppDelegate.h */,
 				F1AAB64817CAF26A0008A358 /* AppDelegate.m */,
 				F1AAB65017CAF26B0008A358 /* ViewController.h */,
 				F1AAB65117CAF26B0008A358 /* ViewController.m */,
 				F1AAB65317CAF26B0008A358 /* ViewController.xib */,
+				F175085117EA940400DDF37B /* FixedViewController.h */,
+				F175085217EA940400DDF37B /* FixedViewController.m */,
+				F175085317EA940400DDF37B /* FixedViewController.xib */,
 				F1AAB63F17CAF26A0008A358 /* Supporting Files */,
 			);
 			path = "Mongoose Random";
@@ -158,6 +184,16 @@
 				F1AAB66517CAF26B0008A358 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F1AAB67D17CB03F40008A358 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F1AAB67717CB03EB0008A358 /* beep-7.mp3 */,
+				F1AAB67817CB03EB0008A358 /* end beep.mp3 */,
+				F1AAB67917CB03EB0008A358 /* tick - 1s.mp3 */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,11 +267,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1AAB67A17CB03EB0008A358 /* beep-7.mp3 in Resources */,
+				F1AAB67B17CB03EB0008A358 /* end beep.mp3 in Resources */,
+				F1AAB67C17CB03EB0008A358 /* tick - 1s.mp3 in Resources */,
 				F1AAB64317CAF26A0008A358 /* InfoPlist.strings in Resources */,
 				F1AAB64B17CAF26B0008A358 /* Default.png in Resources */,
 				F1AAB64D17CAF26B0008A358 /* Default@2x.png in Resources */,
 				F1AAB64F17CAF26B0008A358 /* Default-568h@2x.png in Resources */,
 				F1AAB65517CAF26B0008A358 /* ViewController.xib in Resources */,
+				F175084C17EA933500DDF37B /* Storyboard.storyboard in Resources */,
+				F175085517EA940400DDF37B /* FixedViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +314,7 @@
 				F1AAB64517CAF26A0008A358 /* main.m in Sources */,
 				F1AAB64917CAF26A0008A358 /* AppDelegate.m in Sources */,
 				F1AAB65217CAF26B0008A358 /* ViewController.m in Sources */,
+				F175085417EA940400DDF37B /* FixedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,6 +495,7 @@
 				F1AAB66F17CAF26B0008A358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1AAB67017CAF26B0008A358 /* Build configuration list for PBXNativeTarget "Mongoose RandomTests" */ = {
 			isa = XCConfigurationList;
@@ -461,6 +504,7 @@
 				F1AAB67217CAF26B0008A358 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
